@@ -54,7 +54,7 @@ namespace ListCoffee
 		{
 			//System.Diagnostics.Debug.WriteLine("X: " + e.ScrollX);
 			var first = currentWidth - 10;
-			var second = currentWidth - 40;
+			var second = currentWidth /2;
 			var third =  currentWidth /3;
 			if (e.ScrollX > 30 && e.ScrollX < second && !isScrolling)
 			{
