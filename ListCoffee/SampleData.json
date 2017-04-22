@@ -1,0 +1,11 @@
+{
+  
+
+  "ListCoffeePage.xaml": {"CoffeeItems": [
+    	{"Title": "Espresso", "SmallPrice" : "2.30", "LargePrice" : "3.90" },
+       	{"Title": "Coffee", "SmallPrice" : "2.30", "LargePrice" : "3.90" },
+    	{"Title": "Capuchino", "SmallPrice" : "2.30", "LargePrice" : "3.90" }
+	
+   ]}
+
+}
