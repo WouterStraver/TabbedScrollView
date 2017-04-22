@@ -43,6 +43,7 @@
 		</StackLayout>
 		<StackLayout BackgroundColor="{StaticResource backgroundColor}" >
 			<ScrollView Orientation="Horizontal" Scrolled="Handle_Scrolled" x:Name="scrollView" >
+				
 				<StackLayout Orientation="Horizontal">
 					<Frame Margin="20" HasShadow="false" x:Name="Frame1"  >
 						<ListView x:Name="coffeeListView" ItemsSource="{Binding CoffeeItems}"  HasUnevenRows="true"  SeparatorVisibility="None">

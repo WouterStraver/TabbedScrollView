@@ -55,7 +55,7 @@ namespace ListCoffee
 			//System.Diagnostics.Debug.WriteLine("X: " + e.ScrollX);
 			var first = currentWidth - 10;
 			var second = currentWidth - 40;
-			var third = currentWidth - 100;
+			var third =  currentWidth /3;
 			if (e.ScrollX > 30 && e.ScrollX < second && !isScrolling)
 			{
 				 await SetButton("Donuts");
@@ -108,6 +108,7 @@ namespace ListCoffee
 				CoffeeLine.HeightRequest = 2;
 			}
 		}
+
 
 
 		void setWidth()
